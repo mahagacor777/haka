@@ -3,14 +3,14 @@ using namespace std;
 int main(){
 
 
-int a,b;
+int nilai_wowo,nilai_wiwi;
 
 cout<<"masukkkan nilai berupa angka"<<endl;
-cin>>a;
+cin>>nilai_wowo;
 cout<<"masukkan nilai kedua"<<endl;
-cin>>b;
+cin>>nilai_wiwi;
 
-if(a<b)
+if(nilai_wowo<nilai_wiwi)
 {for(int i=1;i<=50;)
 cout<<"ayo ayo ganyang fufufafa"<<endl;}
 
