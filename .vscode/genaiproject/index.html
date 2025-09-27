@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kalkulator Statistik Mahasiswa</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>Kalkulator Statistik Mahasiswa</h1>
+
+  <textarea id="dataInput" placeholder="Masukkan data dipisahkan koma, contoh: 2,4,6,8,10"></textarea>
+  <button onclick="hitungStatistik()">Hitung Statistik</button>
+
+  <h2>Hasil Statistik Deskriptif</h2>
+  <div id="hasil"></div>
+
+  <h2>Distribusi Frekuensi</h2>
+  <table border="1" id="tabelDistribusi"></table>
+
+  <h2>Visualisasi Data</h2>
+  <canvas id="histogram"></canvas>
+  <canvas id="ogive"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
