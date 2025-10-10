@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 // Fungsi untuk menghitung total pengeluaran 1 hari
 int hitungHarian(int makan, int transportasi, int lain)
 {
@@ -49,8 +48,9 @@ int main()
 
     // Tampilkan hasil akhir dengan menjumlahkan semua pengeluaran perhari yang sudah disimpan pada array pengeluaran
     cout << "\n========================================\n";
-    cout << "Total pengeluaran selama 7 hari = Rp "
-         << total_pengeluaran_Mingguan << endl;
+    cout << "Total pengeluaran selama 7 hari = Rp ";
+    cout << "\n========================================\n";
+    cout << total_pengeluaran_Mingguan << endl;
 
     return 0;
 }
